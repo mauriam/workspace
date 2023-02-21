@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100vw;
+    height: 50vh;
+    background-color: brown;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: yellow;    
+    width: 100px;   
+}
+#uno{
+    align-self: stretch;
+}
+#dos{
+    align-self: flex-start;
+}
+#tres{
+    align-self: flex-end;
+}
