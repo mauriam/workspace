@@ -17,12 +17,19 @@ selector:{
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
+h1 {
+    color: azure;
+}
 .caja {
     width: 200px;
     height: 300px;
-    margin-bottom: 2rem;
-    margin-left: 2rem;
     background-color: brown;
+    padding: 20px;
+    border: 10px solid white;
+    box-sizing: border-box;
 }
 div p {
     padding: 10px;
