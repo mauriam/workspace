@@ -6,13 +6,25 @@ selector:{
     propiedad: valor ;
     propiedad: valor ; <-<< punto y coma para terminar con la regla css
 }
-
 */
-
+/* 
+    selectores  #id .clase :pseudoclase ::pseudoelemento [atributo]
+    aceder aun elemento se mapea 
+    div p 
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .caja {
     width: 200px;
     height: 300px;
     margin-bottom: 2rem;
     margin-left: 2rem;
     background-color: brown;
+}
+div p {
+    padding: 10px;
+    color: #fff;
 }
