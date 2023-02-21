@@ -28,3 +28,22 @@ h1:active{
     border: 3px solid red;
     color: white;
 }
+/*
+    para hacer uso de las Pseudoelemento su sintaxis es 
+    elemento::Pseudoelemento{
+        propiedad:valor;
+    }
+    ejemplo:
+    div p::first-line{
+        propiedad:valor;
+    }
+*/
+div p{
+    width: 500px;
+    margin: 30px;
+}
+div p::first-line{
+    background-color: yellow;
+    color: brown;
+    font-size: 2rem;
+}
