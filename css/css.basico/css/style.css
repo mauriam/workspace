@@ -1,6 +1,13 @@
 /*
     comentarios en css 
 */
+/* estructura del css
+selector:{
+    propiedad: valor ;
+    propiedad: valor ; <-<< punto y coma para terminar con la regla css
+}
+
+*/
 
 .caja {
     width: 200px;
