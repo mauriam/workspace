@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.contenedor{
+    display: flex;
+    /* justify-content: center; */
+    /*aling content*/
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+    /* align-content: center; */
+    /* align-content: stretch; */
+    align-content: flex-start;
+    /* align-content: flex-end; */
+
+
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100vw;
+    height: 100vh;
+    background-color: brown;
+}
+div{
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+}
