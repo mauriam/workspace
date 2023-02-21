@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+    gap: 1rem;
+    /* warp */
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    font-size: 3rem;
+}
