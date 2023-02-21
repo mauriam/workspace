@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 40px;
+    border: 3px solid blue;
+}
+/*
+    para hacer uso de las Pseudoclases su sintaxis es 
+    elemento:Pseudoclase{
+        propiedad:valor;
+    }
+    ejemplo:
+    h1:hover{
+        propiedad:valor;
+    }
+*/
+h1:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+h1:active{
+    background-color: red;
+    border: 3px solid red;
+    color: white;
+}
