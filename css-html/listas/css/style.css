@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: mediumpurple;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+div{
+    align-items: center;
+    height: 300px;
+    width: 250px;
+    background-color: green;
+    margin: 10px;
+}
+div h2{
+    text-align: center;
+    justify-content: center;
+    /* display: block; */
+    background-color: brown;
+}
+
+div ul,div ol
+{
+    padding-left: 30px;   
+}
+div dt{
+    font-weight: bold;
+    padding-left: 30px;   
+}
+
+div dl dd{
+    padding-left: 50px; 
+}
